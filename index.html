@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/c6b859bdbf.js" crossorigin="anonymous"></script>
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="black-background">
+	<div id="music-player">
+		<div id="left-track" >
+			<div>
+				<img src="Images/song-track-pic.jpg" class="song-track-pic">
+			</div>
+			<div>
+				<h4 style="font-size:1rem">Imagine by Jhon</h4>
+				<p>Jhon Lenon</p>
+			</div>
+			<div>
+				<i class="fa-solid fa-heart"></i>
+				<span style="margin: 0px 0.4rem;"><i class="fa-solid fa-ban"></i></span>
+			</div>
+		</div>
+		<div id="middle-track">
+			<div class="middle-upper-track">
+				<div><i class="fa-solid fa-shuffle"></i></div>
+				<div><i class="fa-solid fa-backward-step"></i></div>
+				<div><i class="fa-solid fa-circle-pause"></i></div>
+				<div><i class="fa-solid fa-forward-step"></i></div>
+			</div>
+			<div class="middle-lower-track">
+				<div>1:39</div>
+				<div>
+					<input type="range" name="played-seconds" min="1" max="444" value="139" class="played-seconds">
+				</div>
+				<div>4:44</div>
+			</div>
+		</div>
+		<div id="right-track">
+			<div><i class="fa-solid fa-bars-staggered"></i></div>
+			<div><i class="fa-solid fa-volume-high"></i></div>
+			<div>
+				<input type="range" name="sound">
+			</div>
+			<div><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+		</div>
+
+	</div>
+	</div>
+		<header>
+			<navbar>
+				<div class="left-header">
+					<div class="navlogo">
+						<img src="Images/logo.png" class="logo">
+						<span>Ninja<br>Studio</span>
+					</div>			
+					<div>Favourites</div>
+				</div>
+			
+				<ul class="right-header">
+					<li>
+						<div class="search-box">
+							<input type="text" name="search" placeholder="search" class="search-text">
+							<a href="#">
+							<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+					</li>
+					<li><i class="fa-solid fa-bell"></i></li>
+					<li><img src="Images/profile.jpg" class="profilePic"><i class="fa-solid fa-caret-down"></i></li>
+				</ul>
+			</navbar>
+		</header>
+	<div class="container">
+		<main>
+			<!-- MAIN HEADER SECTION -->
+			<div class="main-header">
+				<img src="Images/music_photo.jpg" class="main-header-music-photo">
+				<div class="music-content">
+					<div class="heading">
+						<h2 style="font-size:1.5rem;">ColdPlay
+						</h2>
+						<p style="font-size:0.9rem;">100M followers</p>
+					</div>
+					<p style="font-size:0.9rem; line-height: 1.5rem;">British Band</p>
+					<p style="font-size:0.8rem">
+						Here in this video we will create a website design where we will add a play icon that will play a background sound / music on website, then this icon will be changed to pause icon. We can pause the background music / sound by clicking on the pause button. We will create this website design using HTML, CSS and JavaScript step by step.
+					</p>
+					<br><br>
+					<a href="#"><button class="play-button">Play All</button>
+					</a><span>Follow</span>
+					<p>247 Tracks| 128 Albums</p>
+				</div>
+			</div>
+
+			<!-- INDIVIDUAL TRACKS SECTION -->
+			<section>
+				<div class="song-track">
+					<div class="left-track">
+						<div>01</div>
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							Mirage<br><span style="font-size:0.8rem">Else</span>
+						</div>
+					</div>
+					<div class="right-track">
+						<div><i class="fa-solid fa-heart"></i></div>
+						<div><i class="fa-solid fa-plus"></i></div>
+					</div>
+					
+				</div>
+				<div class="song-track">
+					<div class="left-track">
+						<div><i class="fa-solid fa-music"></i></div>
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							Mirage<br><span style="font-size:0.8rem">Else</span>
+						</div>
+					</div>
+					<div class="right-track">
+						<div><i class="fa-solid fa-heart"></i></div>
+						<div><i class="fa-solid fa-plus"></i></div>
+					</div>
+					
+				</div>
+				<div class="song-track">
+					<div class="left-track">
+						<div>03</div>
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							Mirage<br><span style="font-size:0.8rem">Else</span>
+						</div>
+					</div>
+					<div class="right-track">
+						<div><i class="fa-solid fa-heart"></i></div>
+						<div><i class="fa-solid fa-plus"></i></div>
+					</div>
+					
+				</div>
+				<div class="song-track">
+					<div class="left-track">
+						<div>04</div>
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							Mirage<br><span style="font-size:0.8rem">Else</span>
+						</div>
+					</div>
+					<div class="right-track">
+						<div><i class="fa-solid fa-heart"></i></div>
+						<div><i class="fa-solid fa-plus"></i></div>
+					</div>
+					
+				</div>
+				<div class="song-track">
+					<div class="left-track">
+						<div>05</div>
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							Mirage<br><span style="font-size:0.8rem">Else</span>
+						</div>
+					</div>
+					<div class="right-track">
+						<div><i class="fa-solid fa-heart"></i></div>
+						<div><i class="fa-solid fa-plus"></i></div>
+					</div>
+					
+				</div>
+			</section>
+		</main>
+	
+
+	<!-- ASIDE SECTION -->
+		<aside>
+			<div class="similar-artists">
+				<div class="sa-heading">
+					<h2>Similar Artists</h2>
+					<p>View All</p>
+				</div>
+				<br>
+				<div class="aside-song-track">
+					<div class="left-track">
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							<h3>Imagine Dragons</h3>
+							<p>Pop Band</p>
+						</div>
+					</div>
+					<div class="right-track">
+						<div>
+							<i class="fa-solid fa-ellipsis"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="aside-song-track">
+					<div class="left-track">
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							<h3>Imagine Dragons</h3>
+							<p>Pop Band</p>
+						</div>
+					</div>
+					<div class="right-track">
+						<div>
+							<i class="fa-solid fa-ellipsis"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="aside-song-track">
+					<div class="left-track">
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							<h3 >Imagine Dragons</h3>
+							<p>Pop Band</p>
+						</div>
+					</div>
+					<div class="right-track">
+						<div>
+							<i class="fa-solid fa-ellipsis"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="recently-played">
+				<div class="heading">
+					<h2>Recently Played</h2>
+					<p>View All</p>
+				</div>
+				<br>
+				<div class="song-track">
+					<div class="left-track">
+						<div>01</div>
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							Mirage<br><span style="font-size:0.8rem">Else</span>
+						</div>
+					</div>
+					<div class="right-track">
+						<div><i class="fa-solid fa-heart"></i></div>
+					</div>
+				</div>
+
+				<div class="song-track">
+					<div class="left-track">
+						<div>02</div>
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							Mirage<br><span style="font-size:0.8rem">Else</span>
+						</div>
+					</div>
+					<div class="right-track">
+						<div><i class="fa-solid fa-heart"></i></div>
+					</div>
+				</div>
+
+				<div class="song-track">
+					<div class="left-track">
+						<div>03</div>
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							Mirage<br><span style="font-size:0.8rem">Else</span>
+						</div>
+					</div>
+					<div class="right-track">
+						<div><i class="fa-solid fa-heart"></i></div>
+					</div>
+				</div>
+
+				<div class="song-track">
+					<div class="left-track">
+						<div>04</div>
+						<div>
+							<img src="Images/song-track-pic.jpg" class="song-track-pic">
+						</div>
+						<div>
+							Mirage<br><span style="font-size:0.8rem">Else</span>
+						</div>
+					</div>
+					<div class="right-track">
+						<div><i class="fa-solid fa-heart"></i></div>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</div>
+</body>
+</html>
+
+
+
+
+
